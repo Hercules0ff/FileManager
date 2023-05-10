@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FileManager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="storage">STORAGE</string>
+    <string name="no_files_found">NO FILES FOUND</string>
+    <string name="instruments">...</string>
+    <string name="sort_by_size">sort by size</string>
+    <string name="sort_by_name">sort by name</string>
+    <string name="sort_by_date">sort by date</string>
+    <string name="sort_by_extension">sort by extension</string>
+</resources>

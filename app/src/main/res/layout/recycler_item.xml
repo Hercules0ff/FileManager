@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:orientation="horizontal">
+    
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        tools:src="@drawable/baseline_folder_24"
+        android:id="@+id/icon_view"/>
+
+    <TextView
+        android:id="@+id/fileNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon_view"
+        tools:text="Documents"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateOfCreateTV"
+        android:layout_below="@id/fileNameTV"
+        android:padding="5dp"
+        tools:text="10.01.2023"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fileSizeTV"
+        tools:text="1kb"
+        android:padding="5dp"
+        android:layout_below="@id/fileNameTV"
+        android:layout_toEndOf="@id/dateOfCreateTV"/>
+
+    <Button
+        android:id="@+id/paramBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruments"
+        android:layout_alignParentEnd="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_below="@id/dateOfCreateTV"/>
+
+
+
+
+</RelativeLayout>
